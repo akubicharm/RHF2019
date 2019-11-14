@@ -1,10 +1,6 @@
 - name: Create Azure VM
   hosts: localhost
   connection: local
-#  vars:
-#    azure:
-#      rg: myResourceGroup
-#      location: centralus
   tasks:
   - name: Create resource group
     azure_rm_resourcegroup:
