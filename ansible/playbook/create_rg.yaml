@@ -8,5 +8,5 @@
   tasks:
   - name: Create resource group
     azure_rm_resourcegroup:
-      name: "{{ azure.rg }}"
-      location: "{{ azure.location }}"
+      name: "{{ azure_rg }}"
+      location: "{{ azure_location }}"
